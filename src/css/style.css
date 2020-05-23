@@ -1,3 +1,18 @@
+@font-face {
+    font-family: Barlow-Light;
+    src: url(fonts/Barlow/Barlow-Light.ttf);
+}
+
+@font-face {
+    font-family: Barlow-Bold;
+    src: url(fonts/Barlow/Barlow-Bold.ttf);
+}
+
+@font-face {
+    font-family: Barlow-Black;
+    src: url(fonts/Barlow/Barlow-Black.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +34,8 @@
     list-style-type: none;
     padding: 20px 80px;
     color: white;
+    font-family: Barlow-Bold;
+        font-size: 15px;
 }
 
 .nav-bar img {
@@ -42,6 +59,8 @@
 .main-text a {
     color: white;
     text-decoration: none;
+        font-family: Barlow-Bold;
+    font-size: 15px;
 }
 
 .socials {
