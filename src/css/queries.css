@@ -4,15 +4,13 @@
     }
 }
 
-
-
 @media screen and (min-width: 768px) {
 
     .nav-bar ul {
         position: absolute;
         top: 0;
-        margin-top: 40px;
-        left: 40px;
+        margin-top: 30px;
+        left: 20px;
     }
 
     .nav-bar ul li {
@@ -25,7 +23,7 @@
     }
 
     .socials img {
-        width: 25px;
+        width: 22px;
         margin-right: 40px;
     }
 
@@ -36,3 +34,4 @@
     }
 
 }
+
