@@ -11,14 +11,13 @@
 
 .nav-bar {
     color: white;
-    border-bottom: 5px solid red;
     margin-top: 40px;
 }
 
 .nav-bar ul li {
     display: inline-block;
     list-style-type: none;
-    padding: 20px 60px;
+    padding: 20px 80px;
     color: white;
 }
 
@@ -38,8 +37,6 @@
 .main-text {
     margin-top: 50%;
     text-align: center;
-
-
 }
 
 .main-text a {
@@ -47,3 +44,16 @@
     text-decoration: none;
 }
 
+.socials {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.socials img {
+    margin-right: 20px;
+    width: 18px;
+    
+}
