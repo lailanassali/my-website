@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-bar {
+    color: white;
+    border-bottom: 5px solid red;
+    margin-top: 40px;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px 60px;
+    color: white;
+}
+
+.nav-bar img {
+    width: 100px;
+}
+
+.logo {
+    text-align: end;
+    margin-right: 35px;
+}
+
+.nav-bar ul {
+    margin-top: 50px;
+}
+
+.main-text {
+    margin-top: 50%;
+    text-align: center;
+
+
+}
+
+.main-text a {
+    color: white;
+    text-decoration: none;
+}
+
