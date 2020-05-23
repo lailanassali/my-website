@@ -35,7 +35,8 @@
     padding: 20px 80px;
     color: white;
     font-family: Barlow-Bold;
-        font-size: 15px;
+    font-size: 15px;
+    text-decoration: none;
 }
 
 .nav-bar img {
@@ -56,10 +57,16 @@
     text-align: center;
 }
 
-.main-text a {
+.main-text p {
+    font-family: Barlow-Light;
+    margin-bottom: 50px;
+}
+
+
+.main-text a, .main-text p span{
     color: white;
     text-decoration: none;
-        font-family: Barlow-Bold;
+    font-family: Barlow-Bold;
     font-size: 15px;
 }
 
@@ -74,5 +81,5 @@
 .socials img {
     margin-right: 20px;
     width: 18px;
-    
+
 }
