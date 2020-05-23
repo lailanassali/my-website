@@ -22,11 +22,12 @@
 .wrapper {
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;;
 }
 
 .nav-bar {
     color: white;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .nav-bar ul li {
@@ -37,6 +38,7 @@
     font-family: Barlow-Bold;
     font-size: 15px;
     text-decoration: none;
+    m
 }
 
 .nav-bar img {
@@ -53,15 +55,16 @@
 }
 
 .main-text {
-    margin-top: 50%;
     text-align: center;
+    margin-top: 50%;
 }
 
 .main-text p {
     font-family: Barlow-Light;
     margin-bottom: 50px;
-}
+    font-size: 15px;
 
+}
 
 .main-text a, .main-text p span{
     color: white;
