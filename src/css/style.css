@@ -59,13 +59,15 @@
 .main-text {
     justify-self: center;
     align-self: center;
+    text-align: center;
 }
 
 .main-text p {
     font-family: Barlow-Light;
     margin-bottom: 50px;
     font-size: 15px;
-
+    color: white;
+    text-align: center;
 }
 
 .main-text a,
