@@ -105,6 +105,67 @@
     
 }
 
+.p1 {
+    color: white;
+    position: absolute;
+    text-align: start;
+    bottom: 30em;
+    left: 50px;
+    font-family: Barlow-Bold;
+    font-size: 30px;
+    background: none;
+}
+
+
+.p1 span, .p2 span, .p3 span, .p4 span, .p5 span {
+    font-family: Barlow-Light;
+    font-size: 15px;
+}
+
+.p2 {
+    position: absolute;
+    color: white;
+    text-align: start;
+    bottom: 25em;
+    left: 50px;
+    font-family: Barlow-Bold;
+    font-size: 30px;
+      background: none;
+}
+
+.p3 {
+    color: white;
+    position: absolute;
+    text-align: start;
+    bottom: 20em;
+    font-family: Barlow-Bold;
+    font-size: 30px;
+    left: 50px;
+      background: none;
+}
+
+.p4 {
+    color: white;
+    position: absolute;
+    text-align: start;
+    bottom: 15em;
+    font-family: Barlow-Bold;
+    font-size: 30px;
+    left: 50px;
+      background: none;
+}
+
+.p5 {
+    color: white;
+    position: absolute;
+    text-align: start;
+    font-family: Barlow-Bold;
+    font-size: 30px;
+    left: 50px;
+    bottom: 10em;
+      background: none;
+}
+
 .socials {
     align-self: end;
     justify-self: center;
