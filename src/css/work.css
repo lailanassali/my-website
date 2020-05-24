@@ -36,7 +36,7 @@
 .nav-bar ul li {
     display: inline-block;
     list-style-type: none;
-    padding: 20px 100px;
+    padding: 20px 80px;
     color: white;
     font-family: Barlow-Bold;
     font-size: 13px;
@@ -158,6 +158,17 @@
 .w3 span {
     font-family: Barlow-Light;
     font-size: 15px;
+}
+
+.p1 {
+    color: white;
+    position: absolute;
+    text-align: start;
+    bottom: 30em;
+    left: 50px;
+    font-family: Barlow-Bold;
+    font-size: 30px;
+    background: none;
 }
 
 .p2 {
