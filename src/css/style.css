@@ -116,3 +116,45 @@
     margin-right: 20px;
     width: 18px;
 }
+
+
+
+ @media screen and (min-width: 417px) {
+    .nav-bar ul li {
+        padding: 20px 180px;
+    }
+     
+     
+}
+
+@media screen and (min-width: 768px) {
+
+    .nav-bar ul {
+        position: absolute;
+        top: 0;
+        margin-top: 30px;
+        left: 20px;
+    }
+
+    .nav-bar ul li {
+        padding: 20px 50px;
+    }
+
+    .main-text a,
+    .main-text p {
+        font-size: 18px;
+    }
+
+    .socials img {
+        width: 22px;
+        margin-right: 40px;
+    }
+
+    .logo {
+        text-align: end;
+        margin-right: 50px;
+        margin-top: 20px;
+    }
+
+}
+
