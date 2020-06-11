@@ -20,6 +20,23 @@
 
 }
 
+.cursor {
+    width: 3rem;
+    height: 3rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    background: none;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+}
+
+.link-grow {
+    transform: scale(2);
+    background: #A7A7A7;
+    border: none;
+}
+
 .content {
     display: grid;
     grid-template-columns: 1fr;
@@ -36,7 +53,7 @@
 .content img:nth-child(2) {
     position: absolute;
     background: none;
-    opacity: 90%;
+    opacity: 70%;
     top: 2em;
     left: 2em;
     width: 8em;
@@ -81,8 +98,6 @@
     border: solid #C4C4C4;
     2px;
 }
-
-
 
 @media screen and (min-width: 320px) {
 
