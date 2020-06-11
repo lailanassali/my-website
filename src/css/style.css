@@ -9,152 +9,96 @@
 }
 
 @font-face {
-    font-family: Barlow-Black;
-    src: url(fonts/Barlow/Barlow-Black.ttf);
+    font-family: Staatliches-R;
+    src: url(fonts/Staatliches/Staatliches-Regular.ttf);
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: black;
+    background-color: #1B1B1B;
+
 }
 
-.wrapper {
+.content {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 2fr 1fr;
     width: 100vw;
     height: 100vh;
 }
 
-.nav-bar {
-    color: white;
-    margin-top: 30px;
+.content img:nth-child(1) {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
 }
 
-.nav-bar ul li {
-    display: inline-block;
-    list-style-type: none;
-    padding: 20px 100px;
-    color: white;
-    font-family: Barlow-Bold;
-    font-size: 13px;
-    text-decoration: none;
-}
+/**
 
-.nav-bar img {
-    width: 100px;
-}
 
-.logo {
-    text-align: end;
-    margin-right: 35px;
-}
-
-.nav-bar ul {
-    margin-top: 50px;
-}
-
-.main-text {
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-}
-
-.hero-image {
-    position: relative;
-    margin-top: 50px;
-}
-
-.hero-image img {
-    width: 100%;
-}
-
-.main-text p {
-    font-family: Barlow-Light;
-    margin-bottom: 50px;
-    font-size: 15px;
-    color: white;
-    text-align: center;
-}
-
-.main-text a,
-.main-text p span {
-    color: white;
-    text-decoration: none;
-    font-family: Barlow-Bold;
-    font-size: 15px;
-}
-
-.contact-text {
+.content img:nth-child(2) {
     position: absolute;
-    text-align: center;
-    bottom: 10px;
-    left: 32%;
+    background: none;
+    opacity: 70%;
+}
+
+
+**/
+
+.content img:nth-child(2) {
+    position: absolute;
+    background: none;
+    opacity: 70%;
+    top: 2em;
+    left: 2em;
 
 }
 
-.contact-text a,
-.contact-text p {
-    font-family: Barlow-Bold;
-    margin-bottom: 50px;
-    font-size: 20px;
-    color: white;
+.content h1 {
+    position: absolute;
+    font-family: Staatliches-R;
+    color: #A7A7A7;
+    font-size: 32px;
+    bottom: 2.7em;
+    right: 1em;
+    background: none;
+}
+
+.btn {
+    position: absolute;
+    bottom: 30px;
+    right: 1.5em;
+    background: #C4C4C4;
+    color: #393939;
+    font-family: Staatliches-R;
+    width: 40%;
     text-decoration: none;
-
+    cursor: pointer;
+    height: 40px;
+    font-size: 20px;
+    border: none;
 }
 
-.socials {
-    align-self: end;
-    justify-self: center;
-    margin-bottom: 15px;
-    margin-top: 20px;
-}
-
-.socials img {
-    margin-right: 20px;
-    width: 18px;
+.btn:hover {
+    background: none;
+    color: #C4C4C4;
+    text-decoration: none;
+    border: solid #C4C4C4;
+    2px;
 }
 
 
-
- @media screen and (min-width: 417px) {
-    .nav-bar ul li {
-        padding: 20px 180px;
+/**
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+    
+    .content h1 {
+        font-size: 26px;
+        margin-bottom: 5px;
     }
-     
-     
+    
+    .btn {
+        height: 35px;
+        font-size: 16px;
+    }
 }
-
-@media screen and (min-width: 768px) {
-
-    .nav-bar ul {
-        position: absolute;
-        top: 0;
-        margin-top: 30px;
-        left: 20px;
-    }
-
-    .nav-bar ul li {
-        padding: 20px 50px;
-    }
-
-    .main-text a,
-    .main-text p {
-        font-size: 18px;
-    }
-
-    .socials img {
-        width: 22px;
-        margin-right: 40px;
-    }
-
-    .logo {
-        text-align: end;
-        margin-right: 50px;
-        margin-top: 20px;
-    }
-
-}
-
+**/
