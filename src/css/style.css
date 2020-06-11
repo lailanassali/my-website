@@ -33,25 +33,17 @@
     object-fit: cover;
 }
 
-/**
-
-
-.content img:nth-child(2) {
-    position: absolute;
-    background: none;
-    opacity: 70%;
-}
-
-
-**/
-
-
 .content img:nth-child(2) {
     position: absolute;
     background: none;
     opacity: 90%;
     top: 2em;
     left: 2em;
+    width: 8em;
+}
+
+.content img:nth-child(3) {
+    display: none;
 
 }
 
@@ -63,7 +55,7 @@
     bottom: 2.7em;
     right: 1em;
     background: none;
-    
+
 }
 
 .btn {
@@ -73,13 +65,13 @@
     background: #C4C4C4;
     color: #393939;
     font-family: Staatliches-R;
-    width: 40%;
+    width: 10em;
     text-decoration: none;
     cursor: pointer;
     height: 40px;
-    font-size: 20px;
+    font-size: 18px;
     border: none;
-        animation: glitch1 4s infinite;
+    animation: glitch1 4s infinite;
 }
 
 .btn:hover {
@@ -91,85 +83,64 @@
 }
 
 
-@keyframes glitch1 {
-    0% {
-        transform: none;
-        opacity: 1;
-    }
 
-    7% {
-        transform: skew(-0.5deg, -0.9deg);
-        opacity: 0.75;
-    }
+@media screen and (min-width: 320px) {
 
-    10% {
-        transform: none;
-        opacity: 1;
-    }
-
-    27% {
-        transform: none;
-        opacity: 1;
-    }
-
-    30% {
-        transform: skew(0.8deg, -0.1deg);
-        opacity: 0.75;
-    }
-
-    35% {
-        transform: none;
-        opacity: 1;
-    }
-
-    52% {
-        transform: none;
-        opacity: 1;
-    }
-
-    55% {
-        transform: skew(-1deg, 0.2deg);
-        opacity: 0.75;
-    }
-
-    50% {
-        transform: none;
-        opacity: 1;
-    }
-
-    72% {
-        transform: none;
-        opacity: 1;
-    }
-
-    75% {
-        transform: skew(0.4deg, 1deg);
-        opacity: 0.75;
-    }
-
-    80% {
-        transform: none;
-        opacity: 1;
-    }
-
-    100% {
-        transform: none;
-        opacity: 1;
-    }
-}
-
-
-/**
-@media only screen and (min-width: 320px) and (max-width: 568px) {
-    
     .content h1 {
-        font-size: 26px;
-        margin-bottom: 5px;
+        font-size: 28px;
     }
-    
+
     .btn {
+        font-size: 18px;
         height: 35px;
-        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .content h1 {
+        font-size: 56px;
+        position: absolute;
+        bottom: 2.3em;
+    }
+
+    .btn {
+        position: absolute;
+        font-size: 30px;
+        height: 60px;
+        bottom: 1.5em;
+        10px;
     }
 }
-**/
+
+@media screen and (min-width: 1024px) {
+
+    .content h1 {
+        font-size: 76px;
+        bottom: 2em;
+    }
+
+    .btn {
+        font-size: 35px;
+        height: 70px;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+
+
+    .content img:nth-child(1) {
+        display: none;
+
+    }
+
+    .content img:nth-child(3) {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+    }
+}
