@@ -29,6 +29,7 @@
     background: none;
     transform: translate(-50%, -50%);
     pointer-events: none;
+    transition: ease-in-out 0.1s;
 }
 
 .link-grow {
@@ -89,7 +90,7 @@
     height: 40px;
     font-size: 18px;
     border: none;
-    animation: glitch1 4s infinite;
+    animation: glitch1 2s infinite;
 }
 
 .btn:hover {
