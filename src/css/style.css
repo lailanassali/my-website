@@ -35,6 +35,7 @@
     transform: scale(2);
     background: #A7A7A7;
     border: none;
+    opacity: 50%;
 }
 
 .content {

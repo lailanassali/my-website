@@ -1,6 +1,6 @@
 let mouseCursor = document.querySelector('.cursor');
 
-let main = document.querySelectorAll('.main-text h1, .main-text a, .content img:nth-child(2)');
+let main = document.querySelectorAll('.main-text a, .content img:nth-child(2)');
 
 window.addEventListener('mousemove', cursor);
 
